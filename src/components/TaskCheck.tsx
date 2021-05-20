@@ -6,7 +6,7 @@ type TaskCheckProps = {
 }
 
 export const TaskCheck: FunctionComponent<TaskCheckProps> = (props: TaskCheckProps) => {
-    const classes = `task-check ${props.isChecked}`;
+    const classes = `task-check ${props.isChecked ? 'checked' : ''}`;
 
     return (
         <button className={classes}></button>

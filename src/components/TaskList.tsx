@@ -5,19 +5,20 @@ import './TaskList.css';
 export const TaskList: FunctionComponent = () => {
     return (
         <div className="task-list">
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
-            <Task />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
+            <Task name="Do the thing" isChecked={true} />
+            <Task name="Dont do the thing" isChecked={false} />
         </div>
     );
 }
