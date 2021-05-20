@@ -9,6 +9,8 @@ export const TaskCheck: FunctionComponent<TaskCheckProps> = (props: TaskCheckPro
     const classes = `task-check ${props.isChecked ? 'checked' : ''}`;
 
     return (
-        <button className={classes}></button>
+        <button className={classes}>
+            <span className="material-icons tick">{props.isChecked ? 'done' : ''}</span>
+        </button>
     );
 }
