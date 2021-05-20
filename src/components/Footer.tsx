@@ -1,7 +1,8 @@
 import { FunctionComponent } from "react";
+import './Footer.css';
 
 export const Footer: FunctionComponent = () => {
     return (
-        <footer>Footer</footer>
+        <footer className="footer">Footer</footer>
     );
 }
