@@ -1,0 +1,12 @@
+.task-check {
+    background: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    height: 30px;
+    width: 30px;
+}
+
+.task-check.checked {
+    background: greenyellow;
+}
